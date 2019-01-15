@@ -1,0 +1,28 @@
+#root {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.memory-card,
+.memory-card-front {
+    width: 155px;
+    height: 155px;
+    background: rgb(43, 104, 235);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgba(44, 44, 44, .1);
+    margin: 10px;
+}
+
+.memory-card-front {
+    background: #fff;
+}
+
+.memory-card>.icon {
+    width: 100px;
+}
