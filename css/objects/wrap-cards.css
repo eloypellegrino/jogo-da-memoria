@@ -1,0 +1,15 @@
+.wrap-cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 5px auto;
+    justify-content: space-around;
+}
+
+.wrap-cards>article:first-child {
+    background: #000000;
+}
+
+.wrap-cards>article:first-child::before {
+    height: 0;
+}
