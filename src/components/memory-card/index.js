@@ -9,6 +9,6 @@ function createMemoryCard(cards) {
 
         $memoryCard.classList.add("memory-card");
         $memoryCard.insertAdjacentHTML("afterbegin", $icon);
-        $wrapCards.insertBefore($memoryCard, null);
+        $cardsWrapper.insertBefore($memoryCard, null);
     }
 }

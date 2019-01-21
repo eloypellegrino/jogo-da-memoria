@@ -1,4 +1,4 @@
-.wrap-cards {
+.cards-wrapper {
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
@@ -6,10 +6,10 @@
     justify-content: space-around;
 }
 
-.wrap-cards>article:first-child {
+.cards-wrapper>article:first-child {
     background: #000000;
 }
 
-.wrap-cards>article:first-child::before {
+.cards-wrapper>article:first-child::before {
     height: 0;
 }
