@@ -6,10 +6,3 @@
     justify-content: space-around;
 }
 
-.cards-wrapper>article:first-child {
-    background: #000000;
-}
-
-.cards-wrapper>article:first-child::before {
-    height: 0;
-}

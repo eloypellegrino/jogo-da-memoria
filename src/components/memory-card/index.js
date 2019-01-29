@@ -1,14 +1,9 @@
-function createMemoryCard(cards) {
-    for (i = 1; i <= cards; i++) {
-        $memoryCard = document.createElement("article");
-        $icon = `<img 
-                            src='img/icon-${i}.png' 
-                            alt='Ícone ${i}' 
-                            class='icon'>
-                        </img>`;
-
-        $memoryCard.classList.add("memory-card");
-        $memoryCard.insertAdjacentHTML("afterbegin", $icon);
-        $cardsWrapper.insertBefore($memoryCard, null);
-    }
+function memoryCardCreate(nameClass, nameIcon, alt) {
+    return `<article class="memory-card ${nameClass}">
+                <img 
+                    src="img/icon-${nameIcon}.png" 
+                    alt="Ícone ${alt}" 
+                    class="icon">
+                </img>
+              </article>`;
 }
